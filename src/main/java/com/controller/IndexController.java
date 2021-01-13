@@ -29,7 +29,7 @@ public class IndexController {
      */
     @RequestMapping(value = "/welcome", method = RequestMethod.GET)
     public String welcome() {
-        return "welcome";
+        return "welcome 具象嘉捷！";
     }
 
     /**
